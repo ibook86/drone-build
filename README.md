@@ -2,7 +2,12 @@
 
 > The Enterprise Edition is free for organizations with under $1 million US dollars in annual gross revenue.
 
+## 注意
+
+**该Docker镜像仅供学习研究使用，用于生产环境请慎重选择！**
+
 ## 使用
+
 `docker pull ibook163/drone:latest`
 
 ```shell
@@ -23,4 +28,5 @@ docker run \
 
 ## 参见：
 https://docs.drone.io/server/provider/github/
+
 https://docs.drone.io/enterprise/
