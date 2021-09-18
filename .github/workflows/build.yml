@@ -16,7 +16,6 @@ jobs:
       - name: Build Drone Server Linux amd64
         run: |
           git clone https://github.com/drone/drone.git
-#          cd drone && go build -tags "nolimit" github.com/drone/drone/cmd/drone-server
           cd drone && \
           go build -ldflags "-extldflags \"-static\"" -tags "nolimit" github.com/drone/drone/cmd/drone-server
 
